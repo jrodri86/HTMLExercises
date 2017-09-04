@@ -1,0 +1,12 @@
+@mixin elementsize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin backcolor($bcolor) {
+    background-color: $bcolor;
+}
+
+@mixin mousecursor($cursor) {
+    cursor: $cursor;
+}

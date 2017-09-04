@@ -1,0 +1,12 @@
+/*video::-webkit-media-controls-enclosure {
+    display:none !important;
+  }*/
+  
+#videoplayer {
+    @include backcolor($darkgrey);
+    display: inline-block;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}

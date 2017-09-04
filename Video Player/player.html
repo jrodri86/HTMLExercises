@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+   <head>
+	  <link rel="stylesheet" type="text/css" href="css/player.css">
+	  <script type="text/javascript" src="js/player.js"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">	  
+   </head>
+   
+   <body>
+       <div id="videoplayer">
+		   <div id="video-container">
+			   <!--<div id="screen-pause">
+				    <img src="assets/images/play.png">
+			   </div>-->
+			   
+			   <video id="vid" poster="assets/images/thumbnail.png">
+	           <source src="assets/videos/sample.mp4">
+	           Welp. It seems your current browser version does not support HTML5. If you want to watch the video, please update it.
+	           </video>      
+		   </div>
+		   
+		   <div id="pbar-container">
+	            <div id="pbar"></div>
+		   </div>
+		   
+		   <div id="buttons-container">
+	           <img id="play-btn" src="assets/images/play.png">
+			   <div id="video-timer">
+			       0:00 / 0:00
+		       </div>
+			   <img id="sound-btn" src="assets/images/sound.png">
+			   <div id="sbar-container">
+			       <div id="sbar"></div>
+		       </div>
+			   <img id="fullscreen-btn" src="assets/images/fullscreen.png">
+		   </div>
+	  
+	   </div>	
+	</body>
+</html>

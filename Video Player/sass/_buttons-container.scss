@@ -1,0 +1,34 @@
+#buttons-container {
+    height:30px;
+    z-index: 2147483647;
+}
+    #buttons-container > * {
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+        margin: 0 5px;
+    }
+        #video-timer {
+            line-height: 30px;
+            color: $purewhite;
+            font-family: "Signika", sans-serif;            
+            @include mousecursor(default);
+        }
+
+        #sound-btn {
+            margin-right: 0px;
+        } 
+            #sbar-container {
+                @include elementsize(100px, 5px);
+                @include backcolor($mediumgrey);
+                @include mousecursor(pointer);
+                margin-left: 0px;
+            }
+                #sbar {
+                    @include elementsize(100%, 100%);
+                    @include backcolor($lightblue);
+                }
+
+#fullscreen-btn {
+    float: right;
+}            

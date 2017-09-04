@@ -1,0 +1,7 @@
+img {
+    @include backcolor($lightgrey);
+    @include mousecursor(pointer);
+}
+img:hover {
+    @include backcolor($lightblue);
+}
